@@ -14,7 +14,7 @@ namespace Cantina3._0
         public override string ToString()
         {
             return $"{descrição} - R${valor} ";
-            ;
+            
         }
         public Produto()
         {

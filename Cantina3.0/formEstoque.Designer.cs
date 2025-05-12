@@ -57,7 +57,6 @@
             listProdutos.Name = "listProdutos";
             listProdutos.Size = new Size(233, 154);
             listProdutos.TabIndex = 1;
-            listProdutos.SizeChanged += listProdutos_SizeChanged;
             // 
             // btnRemover
             // 

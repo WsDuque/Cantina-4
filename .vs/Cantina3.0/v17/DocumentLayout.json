@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\25163080\\Downloads\\Cantina4\\",
+  "WorkspaceRootPath": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina3.0.csproj|c:\\users\\25163080\\downloads\\cantina4\\cantina3.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina3.0.csproj|solutionrelative:cantina3.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina4.csproj|c:\\users\\wd\\documents\\senai\\cantina-4\\cantina3.0\\formestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina4.csproj|solutionrelative:cantina3.0\\formestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina3.0.csproj|c:\\users\\25163080\\downloads\\cantina4\\cantina3.0\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina4.csproj|c:\\users\\wd\\documents\\senai\\cantina-4\\cantina3.0\\formestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina4.csproj|solutionrelative:cantina3.0\\formestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina4.csproj|c:\\users\\wd\\documents\\senai\\cantina-4\\cantina3.0\\listaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina4.csproj|solutionrelative:cantina3.0\\listaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina3.0.csproj|c:\\users\\wd\\documents\\senai\\cantina-4\\cantina3.0\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina3.0.csproj|solutionrelative:cantina3.0\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina3.0.csproj|c:\\users\\25163080\\downloads\\cantina4\\cantina3.0\\listaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina3.0.csproj|solutionrelative:cantina3.0\\listaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina3.0.csproj|C:\\Users\\25163080\\Downloads\\Cantina4\\cantina3.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CEE417B1-4107-4085-8DF9-85FA6D5B3967}|Cantina3.0\\Cantina3.0.csproj|solutionrelative:cantina3.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,53 +30,56 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "listaProdutos.cs",
-              "DocumentMoniker": "C:\\Users\\25163080\\Downloads\\Cantina4\\Cantina3.0\\listaProdutos.cs",
-              "RelativeDocumentMoniker": "Cantina3.0\\listaProdutos.cs",
-              "ToolTip": "C:\\Users\\25163080\\Downloads\\Cantina4\\Cantina3.0\\listaProdutos.cs",
-              "RelativeToolTip": "Cantina3.0\\listaProdutos.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAA9AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Produto.cs",
+              "RelativeDocumentMoniker": "Cantina3.0\\Produto.cs",
+              "ToolTip": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Produto.cs",
+              "RelativeToolTip": "Cantina3.0\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:08:50.71Z",
+              "WhenOpened": "2025-05-12T01:02:51.095Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\25163080\\Downloads\\Cantina4\\Cantina3.0\\Produto.cs",
-              "RelativeDocumentMoniker": "Cantina3.0\\Produto.cs",
-              "ToolTip": "C:\\Users\\25163080\\Downloads\\Cantina4\\Cantina3.0\\Produto.cs",
-              "RelativeToolTip": "Cantina3.0\\Produto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "listaProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\listaProdutos.cs",
+              "RelativeDocumentMoniker": "Cantina3.0\\listaProdutos.cs",
+              "ToolTip": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\listaProdutos.cs",
+              "RelativeToolTip": "Cantina3.0\\listaProdutos.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:08:53.657Z",
+              "WhenOpened": "2025-05-07T14:08:50.71Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\25163080\\Downloads\\Cantina4\\Cantina3.0\\Form1.cs",
-              "RelativeDocumentMoniker": "Cantina3.0\\Form1.cs",
-              "ToolTip": "C:\\Users\\25163080\\Downloads\\Cantina4\\Cantina3.0\\Form1.cs",
-              "RelativeToolTip": "Cantina3.0\\Form1.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAwwHQAAAAUAAAAAAAAAA==",
+              "Title": "formEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\formEstoque.cs",
+              "RelativeDocumentMoniker": "Cantina3.0\\formEstoque.cs",
+              "ToolTip": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\formEstoque.cs",
+              "RelativeToolTip": "Cantina3.0\\formEstoque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T13:44:53.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\25163080\\Downloads\\Cantina4\\Cantina3.0\\Form1.cs",
-              "RelativeDocumentMoniker": "Cantina3.0\\Form1.cs",
-              "ToolTip": "C:\\Users\\25163102\\Desktop\\docWSD\\Cantina3.0\\Cantina3.0\\Form1.cs [Projeto]",
-              "RelativeToolTip": "..\\..\\..\\25163102\\Desktop\\docWSD\\Cantina3.0\\Cantina3.0\\Form1.cs [Projeto]",
+              "DocumentIndex": 1,
+              "Title": "formEstoque.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\formEstoque.cs",
+              "RelativeDocumentMoniker": "Cantina3.0\\formEstoque.cs",
+              "ToolTip": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\formEstoque.cs [Projeto]",
+              "RelativeToolTip": "Cantina3.0\\formEstoque.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T16:30:05.35Z"
+              "WhenOpened": "2025-05-12T01:01:18.872Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

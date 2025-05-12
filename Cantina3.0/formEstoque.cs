@@ -4,17 +4,21 @@ namespace Cantina3._0
 {
     public partial class Form : System.Windows.Forms.Form
     {
+        string fileName = "listaProdutos.json";
+        listaProdutos ListaProdutos = new listaProdutos();
+        List<Produto> produtos = new List<Produto>();
+
         public Form()
         {
 
             InitializeComponent();
-
+            produtos = ListaProdutos.getListaJSON(fileName);
+            foreach (Produto produto in produtos)
+                listProdutos.Items.Add((Produto)produto);
         }
-        string fileName = "listaProdutos.json";
-        listaProdutos ListaProdutos = new listaProdutos();
-        List<Produto> produtos = new List<Produto>();
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
+            txtProduto.Focus();
             double preço = 0;
             if (!String.IsNullOrEmpty(txtProduto.Text) && !String.IsNullOrEmpty(txtValor.Text))
             {
@@ -29,6 +33,8 @@ namespace Cantina3._0
                 if (!double.TryParse(txtValor.Text, out preço))
                 {
                     MessageBox.Show("Valor Inválido");
+                    txtValor.Focus(); 
+                    
                 }
                 else
                 {
@@ -37,6 +43,8 @@ namespace Cantina3._0
                     txtProduto.Clear();
                     txtValor.Clear();
                     listProdutos.ClearSelected();
+                    
+
                 }
             }
             else
@@ -47,9 +55,7 @@ namespace Cantina3._0
         }
         private void Form_Load(object sender, EventArgs e)
         {
-            produtos = ListaProdutos.getListaJSON(fileName);
-            foreach (Produto produto in produtos)
-                listProdutos.Items.Add((Produto)produto);
+            txtProduto.Focus();
             listProdutos.DisplayMember = "produto.ToString()";
         }
         private void btnRemover_Click(object sender, EventArgs e)
@@ -90,30 +96,30 @@ namespace Cantina3._0
         }
         private void txtProduto_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
-            {
-                txtValor.Select();
+            if (!String.IsNullOrEmpty(txtProduto.Text))
+                {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    txtValor.Select();
+                }
             }
         }
         private void txtValor_KeyDown(object sender, KeyEventArgs e)
         {
+
             if (e.KeyCode == Keys.Enter)
             {
                 btnAdicionar_Click(sender, e);
-                txtProduto.Focus();
+                
             }
         }
 
-        private void listProdutos_SizeChanged(object sender, EventArgs e)
+
+        private void btnFormComprar_Click(object sender, EventArgs e)
         {
             foreach (Produto item in listProdutos.Items)
                 ListaProdutos.addListaProdutos(item);
             ListaProdutos.addListaJSON(fileName);
-
-        }
-
-        private void btnFormComprar_Click(object sender, EventArgs e)
-        {
             Close();
         }
     }

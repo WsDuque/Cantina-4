@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Cantina3.0.csproj": {}
+    "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Cantina4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Cantina3.0.csproj": {
+    "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Cantina4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Cantina3.0.csproj",
-        "projectName": "Cantina3.0",
-        "projectPath": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Cantina3.0.csproj",
+        "projectUniqueName": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Cantina4.csproj",
+        "projectName": "Cantina4",
+        "projectPath": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\Cantina4.csproj",
         "packagesPath": "C:\\Users\\WD\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\WD\\Documents\\SENAI\\Cantina-4\\Cantina3.0\\obj\\",
         "projectStyle": "PackageReference",
